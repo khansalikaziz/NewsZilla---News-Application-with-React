@@ -5,13 +5,15 @@ import NavBar from './component/NavBar';
 import News from './component/News';
 
 
+
 export default class App extends Component {
   render() {
     
     return (
       <div>
+        
         <NavBar/>
-        <News/>
+        <News pageSize={6}/>
         
       </div>
     )
